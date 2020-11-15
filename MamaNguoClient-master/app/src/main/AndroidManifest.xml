@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mamanguo">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.Activities.RatingActivity"></activity>
+        <activity android:name=".ui.Activities.ProfileEditActivity" />
+        <activity android:name=".getAvailableMamaNguo.HistoryActivity" />
+        <activity
+            android:name=".chooseServices.ServicesActivity"
+            android:label="@string/title_activity_services"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ui.Activities.BottomNavActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_api_key" />
+
+        <activity android:name=".chooseMamaNguo.DummyChooseMamaNguoActivity" />
+        <activity android:name=".getAvailableMamaNguo.ChooseMamaNguoActivity" />
+        <activity android:name=".Register.PinVerifyActivity" />
+        <activity android:name=".Register.EnterMobileActivity" />
+        <activity android:name=".Register.SignUpActivity" />
+        <activity android:name=".RetroFitTest.MainActivity" />
+        <activity android:name=".ui.Activities.CheckoutActivity" />
+        <activity android:name=".ui.Activities.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Activities.MapViewActivity"
+            android:label="@string/mapViewActLabel" />
+    </application>
+
+</manifest>

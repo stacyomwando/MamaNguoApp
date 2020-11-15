@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1075682070183",
+    "firebase_url": "https://mamanguo-9f8d4.firebaseio.com",
+    "project_id": "mamanguo-9f8d4",
+    "storage_bucket": "mamanguo-9f8d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075682070183:android:a7221e580dc08edf",
+        "android_client_info": {
+          "package_name": "com.example.mamanguo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1075682070183-83m2j0stqh7q24hr9kpeemj2od92806v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mamanguo",
+            "certificate_hash": "9b258e2c9135cef12585f3ff49b660dce6603f62"
+          }
+        },
+        {
+          "client_id": "1075682070183-u2di7vqsqg8dkuvnm52o4ivj1228g11g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQldunccqCKOzPBzdfFZy5XdTN2PnsX2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1075682070183-u2di7vqsqg8dkuvnm52o4ivj1228g11g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
